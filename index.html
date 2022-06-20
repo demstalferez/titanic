@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ES-es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TITANIC : Datos tras la tragedia </title>
+  <meta content="Trabajo para Upgrade Hub" name="description">
+  <meta content="" name="keywords"> <!-- No necesita debido a que no va a estar online -->
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="foto intro titanic" class="img-fluid">
+        <h1 class="text-light"><a href="index.html">REPORTE TITANIC</a></h1>
+
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#inicio" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Portada</span></a></li>
+          <li><a href="#introduccion" class="nav-link scrollto"><i class="bx bx-id-card"></i> <span>Introducción</span></a>
+          </li>
+          <li><a href="#tripulacion" class="nav-link scrollto"><i class="bx bx-bot"></i> <span>Tripulación</span></a>
+          </li>
+          <li><a href="#graficas" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Graficas</span></a></li>
+          <li><a href="#conclusiones" class="nav-link scrollto"><i class="bx bx-adjust"></i> <span>Video Resumen</span></a>
+          </li>
+          <li><a href="#codigo" class="nav-link scrollto"><i class="bx bx-code"></i> <span>Código</span></a></li>
+          <li><a href="#mejoras" class="nav-link scrollto"><i class="bx bx-calendar"></i> <span>Futuras mejoras</span></a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in" id="inicio">
+      <h1>TITANIC: <br> <br> Perspectiva a través de los datos</h1>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" id="introduccion">
+          <h2>TITANIC, DATOS TRAS EL DESASTRE</h2>
+          <p>
+            El objetivo de este análisis es presentar información sobre la tragedia del Titanic por medio de datos,
+            aplicando conceptos vistos
+            durante el bootcamp de Upgrade-Hub
+          </p>
+          <br><br>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Presentación de los datos en bruto</h3>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Formato:</strong> <span>CSV</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>URL de Origen</strong> <span>www.kaggle.com</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Archivos:</strong> <span>Train data + test data (csv)
+                      + lifeboats</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Lifeboats:</strong> <span>Datos sobre los botes
+                      salvavidas</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nombre:</strong> <span>Demetrio Esteban Alférez</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Compañía:</strong> <span>Upgrade-Hub</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>demetrio.esteban@bootcamp-upgrade.com</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Fecha del último cambio:</strong> <span>20 de
+                      Junio</span></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Accidente: </h2>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-bar-chart"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1309" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Pasajeros</strong></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-activity"></i>
+              <span data-purecounter-start="0" data-purecounter-end="891" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Fallecidos</strong> </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-ticket"></i>
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Clases de pasaje a bordo </strong> </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Títulos de agrupación</strong> segmentados </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <section id="tripulacion" class="services text-center">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Tripulación</h2>
+          <p>La tripulación del titanic podemos dividirla en Jóvenes, Nobleza, Sacerdotes, Militares, Solteros y Casados
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-dice-1"></i></div>
+            <h4 class="title"><a href="">Jóvenes</a></h4>
+            <p class="description">67 Jóvenes subieron a bordo, teniendo el mas Jóven de ellos 3 meses de edad, el mayor
+              14 años </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-dice-2"></i></div>
+            <h4 class="title"><a href="">Nobleza</a></h4>
+            <p class="description">Grupo social representados por 6 personas, la edad varia desde los 30 a los 41 años.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-dice-3"></i></div>
+            <h4 class="title"><a href="">Sacerdotes</a></h4>
+            <p class="description">8 sacerdotes se subieron a bordo del Titanic. Las edades transcurren entre 27 y 57
+              años</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-dice-4"></i></div>
+            <h4 class="title"><a href="">Médicos</a></h4>
+            <p class="description">8 médicos se subieron a bordo del Titanic. El más jóven tenía 23 años, el mas mayor
+              54 </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-dice-5"></i></div>
+            <h4 class="title"><a href="">Militares</a></h4>
+            <p class="description">8 militares se subieron a bordo del Titanic. El más jóven tenía 45 años, el mas mayor
+              70</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-dice-6"></i></div>
+            <h4 class="title"><a href="">Adultos comunes</a></h4>
+            <p class="description">955 Adultos se subieron a bordo del Titanic, formados de grupos solteros y casados,
+              ampliaremos mas adelante </p>
+          </div>
+        </div>
+    </section><!-- End Services Section -->
+    <section id="graficas" class="graficas services">
+      <div class="container">
+        <div class="section-title">
+          <h3>Edad encapsulada en tramos de 10 años mediante el título asignado</h3>
+          <img src="assets/img/output.png" alt="titulosvsedad" class="w-50 p-3">
+          <p> <strong> En esta gráfica, se muestra los rangos de edad, en casillas de diez en diez teniendo en cuenta el
+              título en el que fueron agrupados</strong></p>
+        </div>
+        <br><br><br><br><br><br>
+      </div>
+      <div class="container">
+        <div class="section-title">
+          <h3>Clase de viajero comparado con su título y el precio que pagaron por billete</h3>
+          <img src="assets/img/output2.png" alt="titulosvsedad" class="w-50 p-3">
+          <p> <strong>Aqui podemos ver las relaciones entre el título, tipo de billete( primera, segunda o tercera
+              clase) y el precio del mismo</strong></p>
+          <br><br><br><br><br><br>
+        </div>
+      </div>
+      <div class="container">
+        <div class="section-title">
+          <h3>Supervivencia general </h3>
+          <img src="assets/img/output3.png" alt="titulosvsedad" class="w-50 p-3">
+          <p> <strong>
+              Los valores que se quieren representar con el cero y el uno son : "Cero" = Fallecido, "Uno" = Sobrevivió.
+              <br>
+              Podemos comprobar como el tipo de ticket influye en la Supervivencia del viaje.
+            </strong></p>
+          <br><br><br><br><br><br>
+          <div class="container">
+            <div class="section-title">
+              <h3>Supervivencia general por sexos y clases </h3>
+              <img src="assets/img/output4.png" alt="titulosvsedad" class="w-50 p-3">
+              <p> <strong>
+                  Segmentamos por sexo para comprobar la relación entre el título y la supervivencia. <br>
+                  Podemos ver como las mujeres tienen mas altos índices de supervivencia que los hombres. <br>
+                  Se cumplió la premisa : "Las mujeres y los niños primero"
+                </strong></p>
+            </div>
+          </div>
+          <br><br><br><br><br><br>
+          <div class="container">
+            <div class="section-title">
+              <h3>Supervivencia general porcentuada </h3>
+              <img src="assets/img/newplot.png" alt="titulosvsedad" class="w-50 p-3">
+              <p> <strong>
+                  El porcentaje de supervivencia en este accidente fue escaso, solamente un 26.1% de los tripulantes
+                  conseguió sobrevivir.
+                </strong></p>
+            </div>
+          </div>
+          <br><br><br><br><br><br>
+          <div class="container">
+            <div class="section-title">
+              <h3>Datos sobre cada clase de viajero ( primera, segunda y tercera clase) </h3>
+              <img src="assets/img/newplot2.png" alt="titulosvsedad" class="w-75 p-3">
+              <p> <strong>
+                  En esta gráfica podemos ver datos completos sobre cada clase , desglosados a su vez entre
+                  supervivientes o fallecidos <br>
+                </strong></p> <br><br><br>
+              <div class="row">
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <h4 class="title"><a>PRIMERA CLASE</a></h4> <br>
+                  <h5> <strong> Fallecidos </strong>: </h5>
+                  <p> EL más jóven tenía 2 años, el mas adulto 76 estando la media en 41 años </p> <br>
+                  <h5> <strong>Supervivientes:</strong></h5>
+                  <p> EL más jóven tenía 7 meses, el mas adulto 80 estando la media en 36 años
+                  <p class="description"> </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos-delay="100">
+                  <h4 class="title"><a>SEGUNDA CLASE</a></h4> <br>
+                  <h5> <strong> Fallecidos </strong>: </h5>
+                  <p> EL más jóven 10 meses, el mas adulto 70 estando la media en 30 años </p> <br>
+                  <h5> <strong>Supervivientes:</strong></h5>
+                  <p> EL más jóven tenía 7 meses, el mas adulto 62 estando la media en 28 años
+                  <p class="description"> </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos-delay="200">
+                  <h4 class="title"><a>TERCERA CLASE</a></h4> <br>
+                  <h5> <strong> Fallecidos </strong>: </h5>
+                  <p> EL más jóven tenía 2 años, el mas adulto 74 estando la media en 28 años </p> <br>
+                  <h5> <strong>Supervivientes:</strong></h5>
+                  <p> EL más jóven tenía 2 meses, el mas adulto 63 estando la media en 20 años
+                  <p class="description"> </p>
+                </div>
+              </div>
+            </div>
+            <br><br><br><br><br><br>
+          </div>
+          <div class="container">
+            <div class="section-title">
+              <h3>Datos sobre cada clase de viajero teniendo en cuenta el titulo de agrupación y la edad </h3>
+              <img src="assets/img/newplot3.png" alt="titulosvsedad" class="w-75 p-3">
+              <p> <strong>
+                  En esta gráfica podemos ver datos completos sobre cada clase , desglosados a su vez entre
+                  supervivientes o fallecidos <br>
+                </strong></p> <br><br><br>
+              <div class="row">
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <h4 class="title"><a>MR</a></h4> <br>
+                  <h5> <strong> Fallecidos </strong>: </h5>
+                  <p> EL más jóven tenía 11 años, el mas adulto 74 estando la media en 37 años </p> <br>
+                  <h5> <strong>Supervivientes:</strong></h5>
+                  <p> EL más jóven tenía 16 meses, el mas adulto 80 estando la media en 31 años </p>
+                  <br><br>
+                  <h4 class="title"><a>YOUNG</a></h4> <br>
+                  <h5> <strong> Fallecidos </strong>: </h5>
+                  <p> EL más jóven tenía 6 años, el mas adulto 14 estando la media en 5 años </p> <br>
+                  <h5> <strong>Supervivientes:</strong></h5>
+                  <p> EL más jóven tenía 5 meses, el mas adulto 12 estando la media en 3 años</p>
+                  <br><br>
+                  <h4 class="title"><a>MEDICAL</a></h4> <br>
+                  <h5> <strong> Fallecidos </strong>: </h5>
+                  <p> EL más jóven tenía 23 años, el mas adulto 54 estando la media en 45 años </p> <br>
+                  <h5> <strong>Supervivientes:</strong></h5>
+                  <p> EL más jóven tenía 32 años, el mas adulto 50 estando la media en 49 años</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos-delay="100">
+                  <h4 class="title "><a>MISS</a></h4> <br>
+                  <h5> <strong> Fallecidos </strong>: </h5>
+                  <p> EL más jóven 1 año el mas adulto 63 estando la media en 20 años </p> <br>
+                  <h5> <strong>Supervivientes:</strong></h5>
+                  <p> EL más jóven tenía 1 año, el mas adulto 63 estando la media en 30 años
+                    <br><br><BR>
+                  <h4 class="title"><a>MRS</a></h4> <br>
+                  <h5> <strong> Fallecidos </strong>: </h5>
+                  <p> EL más jóven 16 años , el mas adulto 76 estando la media en 34 años </p> <br>
+                  <h5> <strong>Supervivientes:</strong></h5>
+                  <p> EL más jóven tenía 14 años, el mas adulto 63 estando la media en 35 años
+                  <p class="description"> </p>
+                  <br><br>
+                  <h4 class="title"><a>MILITAR</a></h4> <br>
+                  <h5> <strong> Fallecidos </strong>: </h5>
+                  <p> EL más jóven 45 años, el mas adulto 70 estando la media en 53 años </p> <br>
+                  <h5> <strong>Supervivientes:</strong></h5>
+                  <p> EL más jóven tenía 52 años, el mas adulto 56 estando la media en 54 años
+                  <p class="description"> </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos-delay="200">
+                  <h4 class="title"><a>ROYAL</a></h4> <br>
+                  <h5> <strong> Fallecidos </strong>: </h5>
+                  <p> EL más jóven tenía 38 años, el mas adulto 40 estando la media en 39 años </p> <br>
+                  <h5> <strong>Supervivientes:</strong></h5>
+                  <p> EL más jóven tenía 33 años, el mas adulto 49 estando la media en 48 años
+                    <br><br><BR>
+                  <h4 class="title"><a>PRIEST</a></h4> <br>
+                  <h5> <strong> Fallecidos </strong>: </h5>
+                  <p> EL más jóven tenía 27 años, el mas adulto 57 estando la media en 51 años </p> <br>
+                  <h5> <strong>Supervivientes:</strong></h5>
+                  <p> No sobrevivió ningún clérigo </p>
+                  <p class="description"> </p><br><br><br>
+                </div>
+                <br><br><br>
+                <div class="section-title super text-center">
+                  <h3>ÍNDICE DE SUPERVIVENCIA POR EDAD </h3>
+                  <img src="assets/img/newplot5.png" alt="titulosvsedad" class="w-75 p-3">
+                  <p> <strong>
+                      En esta gráfica contra menor sea la tasa de supervivencia, mas amarillo será el color, estando la
+                      peor franja de embarque <br>
+                      en la franja de 27 a 32 años
+                    </strong></p> <br><br><br>
+                </div>
+                <div class="section-title super text-center">
+                  <h2>NOMBRES MAS COMUNES ENCONTRADOS </h2>
+                  <img src="assets/img/output6.png" alt="titulosvsedad" class="w-50 p-3">
+                  <p> <strong>
+                      Los nombres mas comunes que podemos encontrar entre los tripulantes en forma de nube
+                    </strong></p> <br><br><br>
+                </div>
+                <div class="section-title super text-center">
+                  <h2>LANZAMIENTO DE BOTES SALVAVIDAS, SEGÚN CAPACIDAD Y HORA </h2>
+                  <img src="assets/img/output7.png" alt="titulosvsedad" class="w-75 p-3">
+                  <p> <strong>
+                      Observamos una distribución de los lanzamientos de los botes salvavidas de forma caótica, <br> no
+                      ocupando plazas
+                      que hubiesen permitido salvar muchas mas personas.
+                      <br> <br>
+                    </strong></p> <br><br><br>
+                </div>
+                <div class="section-title super text-center">
+                  <h2> NÚMERO DE PERSONAS POR BOTE VS LA CAPACIDAD DEL MISMO Y LOS TRIPULANTES </h2>
+                  <img src="assets/img/output8.png" alt="titulosvsedad" class="w-75 p-3">
+                  <p> <strong>
+                      Es curioso ver como los marineros se distribuyen en los botes, dando prioridad a los niños y
+                      mujeres, pero no esperando a completar la capacidad del bote.
+                      <br> <br>
+                    </strong></p> <br><br><br>
+                </div>
+                <div class="section-title super text-center">
+                  <h2> LANZAMIENTO COMPARANDO LA CAPACIDAD Y MIDIENDO EL TIEMPO </h2>
+                  <img src="assets/img/newplot88.png" alt="titulosvsedad" class="w-100 p-3">
+                  <p> <strong>
+                      Se puede observar como los primeros botes fueron saliento con mayor capacidad , según avanzaba el
+                      hundimiento cundía mas el caos.
+                      <br> <br>
+                    </strong></p>
+                </div>
+              </div>
+            </div>
+    </section>
+
+    <section class="conclusiones   " id="conclusiones" >
+      <div class="container ">
+            <h3 class=" text-center"  >Los datos en la Historia, conclusiones y curiosidades</h3>
+            <br><br>
+            <video src="titanic.mp4" width="1200" height="540" controls class="center"></video>
+
+
+          </div>
+
+          
+  
+
+    </section>
+
+    <section id="codigo">      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="text-center">CÓDIGO</h2>
+            <p class="text-center">
+              <a href="titanic.html" class="btn btn-outline-primary btn-lg">VER CÓDIGO COMENTADO Y LOS PASOS SEGUIDOS</a>
+
+              <h5 class="text-center"></h5> Secuencia del video</h5>
+
+              <img src="/assets/img/ASFDSFS.png" alt="">
+
+
+                </section>
+
+                <section id="mejoras">      
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h2 class="text-center">Mejoras a futuro</h2> <br>
+                        <p class="text-center"> <STROng> Se necesita mejorar el dataframe uniendo y constrastando los botes salvavidas</STROng> </p>
+                        <p class="text-center"> <STROng> hacer una categoría familia y agrupar entre hombres y mujeres no solteros, para distribuirlos entre los niños</STROng> </p>
+                        <p class="text-center"> <STROng> Calcular la tripulación en base a los muertos que no encajan en categoría</STROng> </p>
+                        <p class="text-center"> <STROng> Calcular que lado del barco era mas seguro para obtener un bote y salvarse</STROng> </p>
+                        <p class="text-center"> <STROng> Se podrían incluir datos del accidente tales como trayectoria, velocidad ect</STROng> </p>
+
+
+
+
+            
+            
+            
+            
+                            </section>
+ 
+
+
+
+
+
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div>
+        <img src="titanic/assets/img/favicon.png" alt="">
+      </div>
+      <div class="copyright">
+        <strong><span>Demetrio Esteban Alférez</span></strong>
+      </div>
+      <div class="credits">
+        Creado para <a href="https://upgradehub.com ">UpgradeHub</a>
+      </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
