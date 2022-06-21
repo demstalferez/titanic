@@ -13,7 +13,9 @@ Se ha usado Python y Jupiter Notebook para el análisis.
 No te olvides de instalar :Pandas, Numpy, Matplotlib, Seaborn, Sklearn, IPython  
 ```
 
-
+<p align="center">
+  <img src="g.png" width="750" title="hover text">
+</p>
 
 # Puedes visitar el informe aqui: 
 Titanic: Una mirada a los datos](http://titanic.demstalfer.com/)
