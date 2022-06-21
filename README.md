@@ -21,14 +21,12 @@ No te olvides de instalar :Pandas, Numpy, Matplotlib, Seaborn, Sklearn, IPython
 # Puedes visitar el informe aqui: 
 Titanic: Una mirada a los datos](http://titanic.demstalfer.com/)
 
-![Screenshot]g.png)
 
 
 ## Para el Dashboard explicativo se ha usado: 
 
 ```
 Bootstrap, HTML, CSS, JS
-
 ```
 
 ## MEJORAS APLICADAS PRÓXIMAMENTE: 
