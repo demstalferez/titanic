@@ -3,9 +3,7 @@
 
 ![Esta es una imagen](https://upload.wikimedia.org/wikipedia/commons/e/ef/Titanic_banner.jpg)
 
-···
-AQUÌ VA EN EL FUTURO UN ÁRBOL DE ARCHIVOS
-···
+
 
 
 ```
@@ -15,6 +13,11 @@ Se ha usado Python y Jupiter Notebook para el análisis.
 
 No te olvides de instalar :Pandas, Numpy, Matplotlib, Seaborn, Sklearn, IPython  
 ```
+
+···
+AQUÌ VA EN EL FUTURO UN ÁRBOL DE ARCHIVOS
+···
+
 
 ## Diccionario de términos : 
 <p align="left">
