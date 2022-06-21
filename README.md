@@ -37,10 +37,10 @@ Bootstrap, HTML, CSS, JS
 *TRIPULACIÓN Y SUS ESTADÍSTICAS, VER COMO SE COMPORTAN.
 *LA RELACIÓN DE SUPERVIVENCIA ENTRE LA DISPOSICIÓN DE LOS BOTES.
 *INCLUIR A FUTURO DATOS DEL ACCIDENTE, VELOCIDAD, TRAYECTORIA ECT
-
+```
 
 ## Contributing
-Eres libre de copiar, modificar, usar y hacer lo que quieras espero pueda serte útil :)
+Eres libre de copiar, modificar, usar y hacer lo que quieras espero pueda serte útil :blush:
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
