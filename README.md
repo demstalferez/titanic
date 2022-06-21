@@ -13,7 +13,8 @@ Se ha usado Python y Jupiter Notebook para el análisis.
 No te olvides de instalar :Pandas, Numpy, Matplotlib, Seaborn, Sklearn, IPython  
 ```
 
-<p align="center">
+## Diccionario de términos : 
+<p align="left">
   <img src="g.png" width="750" title="hover text">
 </p>
 
