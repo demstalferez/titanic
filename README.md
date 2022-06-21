@@ -15,7 +15,7 @@ No te olvides de instalar :Pandas, Numpy, Matplotlib, Seaborn, Sklearn, IPython
 ```
 
 ···
-AQUÌ VA EN EL FUTURO UN ÁRBOL DE ARCHIVOS
+AQUí VA EN EL FUTURO UN ÁRBOL DE ARCHIVOS
 ···
 
 
