@@ -1,4 +1,32 @@
+
 # TITANIC, UNA MIRADA A TRAVÉS DE LOS DATOS
+
+![Esta es una imagen](https://upload.wikimedia.org/wikipedia/commons/e/ef/Titanic_banner.jpg)
+
+
+
+```
+El objetivo de este análisis es obtener datos y predicciones a futuro mediante los datos del Titanic.
+Debido a la información faltante, se han dividido por grupos y aplicado la media para cada categoría.
+Se ha usado Python y Jupiter Notebook para el análisis. 
+
+No te olvides de instalar :Pandas, Numpy, Matplotlib, Seaborn, Sklearn, IPython  
+```
+
+
+
+# Puedes visitar el informe aqui: 
+Titanic: Una mirada a los datos](http://titanic.demstalfer.com/)
+
+
+
+
+## Para el Dashboard explicativo se ha usado: 
+
+```
+Bootstrap, HTML, CSS, JS
+
+```
 
 ## MEJORAS APLICADAS PRÓXIMAMENTE: 
 
@@ -8,26 +36,7 @@
 *TRIPULACIÓN Y SUS ESTADÍSTICAS, VER COMO SE COMPORTAN.
 *LA RELACIÓN DE SUPERVIVENCIA ENTRE LA DISPOSICIÓN DE LOS BOTES.
 *INCLUIR A FUTURO DATOS DEL ACCIDENTE, VELOCIDAD, TRAYECTORIA ECT
-```
 
-
-El objetivo de este repositorio es tener una referencia sobre la que trabajar para futuros proyectos útiles.
-
-## Se ha usado Python y Jupiter Notebook para el análisis. 
-
-
-
-```bash
-Librerias necesarias : Pandas, Numpy, Matplotlib, Seaborn, Sklearn, IPython
-
-```
-
-## Para el Dashboard explicativo se ha usado: 
-
-```bash
-Bootstrap, HTML, CSS, JS
-
-```
 
 ## Contributing
 Eres libre de copiar, modificar, usar y hacer lo que quieras con este código, espera pueda serte útil :)
