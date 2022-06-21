@@ -18,7 +18,7 @@ No te olvides de instalar :Pandas, Numpy, Matplotlib, Seaborn, Sklearn, IPython
 # Puedes visitar el informe aqui: 
 Titanic: Una mirada a los datos](http://titanic.demstalfer.com/)
 
-
+![Screenshot]g.png)
 
 
 ## Para el Dashboard explicativo se ha usado: 
@@ -39,7 +39,7 @@ Bootstrap, HTML, CSS, JS
 
 
 ## Contributing
-Eres libre de copiar, modificar, usar y hacer lo que quieras con este código, espera pueda serte útil :)
+Eres libre de copiar, modificar, usar y hacer lo que quieras espero pueda serte útil :)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
