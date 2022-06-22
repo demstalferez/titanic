@@ -25,7 +25,12 @@ AQUí VA EN EL FUTURO UN ÁRBOL DE ARCHIVOS
 </p>
 
 # Puedes visitar el informe aqui: 
+
 Titanic: Una mirada a los datos](http://titanic.demstalfer.com/)
+
+Modelos predictivos](https://github.com/demstalferez/titanic/blob/master/titanicdata/analisis.ipynb)
+
+
 
 
 
