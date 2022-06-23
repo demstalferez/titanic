@@ -32,24 +32,27 @@ Modelos predictivos](https://github.com/demstalferez/titanic/blob/master/titanic
 
 ### Resumen del aprendizaje de los modelos usados: 
 
-<p align="center">
+
+
+
+<p align="left">
+  
   LOGISTIC REGRESSION
+  
   <img src="a.png" width="500">
-</p>
 
-<p align="center">
   RANDOM FOREST
+  
   <img src="b.png" width="500" >
-</p>
 
-<p align="center">
   KNN 
+  
   <img src="c.png" width="500" >
-</p>
 
-<p align="center">
   GRADIENT BOOSTING
+  
   <img src="d.png" width="500" >
+  
 </p>
 
 
