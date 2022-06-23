@@ -30,6 +30,26 @@ Titanic: Una mirada a los datos](http://titanic.demstalfer.com/)
 
 Modelos predictivos](https://github.com/demstalferez/titanic/blob/master/titanicdata/analisis.ipynb)
 
+### Resumen del aprendizaje de los modelos usados: 
+
+
+## Diccionario de términos : 
+<p align="left">
+  <img src="a.png" width="750" title="hover text">
+</p>
+<p align="left">
+  <img src="b.png" width="750" title="hover text">
+</p>
+<p align="left">
+  <img src="c.png" width="750" title="hover text">
+</p>
+<p align="left">
+  <img src="d.png" width="750" title="hover text">
+</p>
+<p align="left">
+  <img src="e.png" width="750" title="hover text">
+</p>
+
 
 
 
