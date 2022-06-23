@@ -34,21 +34,19 @@ Modelos predictivos](https://github.com/demstalferez/titanic/blob/master/titanic
 
 
 ## Diccionario de términos : 
-<p align="left">
-  <img src="a.png" width="750" title="hover text">
+<p align="center">
+  <img src="a.png" width="500">
 </p>
-<p align="left">
-  <img src="b.png" width="750" title="hover text">
+<p align="center">
+  <img src="b.png" width="500" >
 </p>
-<p align="left">
-  <img src="c.png" width="750" title="hover text">
+<p align="center">
+  <img src="c.png" width="500" >
 </p>
-<p align="left">
-  <img src="d.png" width="750" title="hover text">
+<p align="center">
+  <img src="d.png" width="500" >
 </p>
-<p align="left">
-  <img src="e.png" width="750" title="hover text">
-</p>
+
 
 
 
