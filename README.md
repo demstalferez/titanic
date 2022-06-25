@@ -35,6 +35,7 @@ Modelos predictivos](https://github.com/demstalferez/titanic/blob/master/titanic
 
 
 
+
 <p align="left">
   
   LOGISTIC REGRESSION
